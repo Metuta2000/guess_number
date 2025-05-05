@@ -10,7 +10,7 @@ while True:
         print('Ваше число больше')
     elif guess < number:
         print('Ваше число меньше')
-    else:
+    elif guess==number:
         print('Вы угадали!!!')
         break
 print('Отличная интуиция ')
